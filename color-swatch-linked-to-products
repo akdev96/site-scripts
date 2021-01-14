@@ -1,9 +1,9 @@
 	// color links to swatches in produts
-  // link structure > https://emmahyacinth.com/product/name-color
+  // link structure > https://yoursite.com/product/name-color
   
 	$( document ).ready(function() {
 	var core_link = window.location.href;   // getting current url
-    //var core_link = "https://emmahyacinth.com/product/name-color"; //core url hardcoded for testing
+    //var core_link = "https://yoursite.com/product/name-color"; //core url hardcoded for testing
     var char = '-'; // define the product and color separation character
     var start = core_link.indexOf(char) + 1;  // finding the index of separator
 		var end = start + char.length; // defining color part of the url
